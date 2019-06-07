@@ -1,0 +1,76 @@
+/* LOGO */
+.wedding-logo {
+    width: 100%;
+    left: 0;
+    top: 20px;
+    background-image:url("logo.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    height:141px;    
+    position: relative;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    scale: 80%;
+}
+
+/* FORM */
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;
+    text-align:justify;
+    width:80%;
+    margin-left:10%;
+}
+
+form h2 {
+    font-family: "Qwigley";
+    font-size: 85px;
+    text-align: center;
+}
+
+/*  NAV */
+nav {
+    position:fixed;
+    top:0px;
+    text-align:center;
+    background-color:white;
+    opacity: 0.9;
+    width:100%;
+    padding-bottom:25px;
+
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+
+}
+
+.wedding-nav-item {
+    display:inline-block;
+    list-style:none;
+    text-transform:uppercase;
+    margin-left:50px;
+    padding-top:25px;
+}
+
+
+
+.wedding-nav-item a {
+    text-decoration:none;
+    color:black;
+}
+
+
+
+/* FOOTER */
+.footer-content {
+    margin-top:100px;
+    text-align:center;
+}
+.footer-content a{
+    text-decoration:none;
+    color:black;
+}
