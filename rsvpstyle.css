@@ -1,3 +1,10 @@
+html {
+    font-family:"Open Sans"
+}
+div {
+    display:block;
+}
+
 /* LOGO */
 .wedding-logo {
     width: 100%;
@@ -10,24 +17,72 @@
     height:141px;    
     position: relative;
     padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    scale: 80%;
+    margin: 0 0 30px 0;
+
 }
 
 /* FORM */
 #mc_embed_signup{
     background:#fff; 
     clear:left; 
-    font:14px Helvetica,Arial,sans-serif;
-    text-align:justify;
     width:80%;
     margin-left:10%;
+    margin-bottom: 100px;
+    
 }
 
-form h2 {
-    font-family: "Qwigley";
+.mc-field-group {
+    width:80%;
+    margin-left:10%;
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px;
+    margin-bottom: 25px;
+}
+
+label {
+    grid-column: 1 / 2;
+}
+ 
+input {
+    grid-column: 2 / 3;
+}
+
+.clear {
+    text-align:center;
+}
+
+#mc-embedded-subscribe {
+    width:250px;
+}
+
+.button {
+    background-color: #801515;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    border-radius:15px;
+}
+.button:hover{
+    opacity: 1
+}
+
+
+form h1 {
+    font-family: "Qwigley", cursive;
     font-size: 85px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+li {
+    list-style: none;
 }
 
 /*  NAV */
@@ -66,8 +121,11 @@ nav ul {
 
 
 /* FOOTER */
+
+.footer {
+    font-size:12px;
+}
 .footer-content {
-    margin-top:100px;
     text-align:center;
 }
 .footer-content a{
