@@ -1,5 +1,5 @@
 html {
-    font-family:"Open Sans"
+    font-family:"Open Sans";
 }
 
 /* LOGO */
@@ -28,7 +28,6 @@ nav {
     opacity: 0.9;
     width:100%;
     padding-bottom:25px;
-
 }
 
 nav ul {
