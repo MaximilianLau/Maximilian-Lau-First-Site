@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Qwigley&display=swap" rel="stylesheet">
-        <script src="script.js"></script>
+     
         <meta name="Max and Momo's Wedding Invitation" content="Max and Momo's Wedding Invitation">
         <title>Max and Momo's Wedding Invitation</title>
     </head>
@@ -32,30 +32,34 @@
                <nav class="wedding-nav">
                 <ul>
                     <li class="wedding-nav-item"><a class="selected" href="index.html">Info</a></li>
-                    <li class="wedding-nav-item"><a href="guest.html">Guest Accomodations</a></li>
-                    <li class="wedding-nav-item"><a class="selected" href="guest.html">Details</a></li></li>
+                    <li class="wedding-nav-item"><a href="guest.html">Guest Accommodations</a></li>
+                    <li class="wedding-nav-item"><a class="selected" href="guest.html#details">Details</a></li></li>
                     <li class="wedding-nav-item"><a href="rsvp.html">RSVP</a></li>
                 </ul>
             </nav>
             
-               <div class="wedding-info">
-
-                    <div class="wedding-event">
-                        <div class="wedding-event-title">Our Wedding</div>
-                        <div class="wedding-event-date">Saturday, September 7, 2019</div>
-                        <div class="wedding-event-time"> 10:00 AM</div>
-                        <div class="wedding-event-extra"></div>
-                        <a class="wedding-event-RSVP" href="rsvp.html">RSVP</a>
+                <div class= "guest-info">
+                     <div class="guest-title">
+                        Guest Accommodations
+                     </div>
+                    <div class="guest-content">
+                    Here is an excel file of accommodations near Xun Hui Suo as recommended by our wedding planner!
+                    </div>
+                    <div class="guest-file">
+                    <form>
+                        <input class="guest-button" type="button" value="Download" onClick="window.location.href='guestaccommodations.xlsx'">
+                    </form>
                     </div>
 
-                    <div class="wedding-ceremony">
-                        <div class="wedding-ceremony-title">Ceremony and Reception</div>
-                        <div class="wedding-ceremony-location">旬会所 // Xun Hui Suo</div>
-                        <div class="wedding-ceremony-address">北京市朝阳区百子湾路21号院  // No. 21 Baiziwan Rd., Chaoyang District, Beijing </div>
+                    <div class= "guest-details">
+                        <div class="guest-title" id="details">
+                               Details
+                        </div>
+                        <div class="guest-content">
+                           What to do in Beijing?
+                        </div>
                     </div>
-
                 </div>
-                
             </div>
             <div class="footer">
                 <div class="footer-content">
