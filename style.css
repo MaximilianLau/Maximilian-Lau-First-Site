@@ -153,6 +153,13 @@ hr {
     text-align:center;
 }
 
+.wedding-story-content img {
+    max-width:750px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 /* Wedding Contact */
 .wedding-contact {
     width:90%;
